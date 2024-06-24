@@ -115,10 +115,6 @@ matches:
     replace: "here’s"
     propagate_case: true
     word: true
-  - trigger: "heve"
-    replace: "he’ve"
-    propagate_case: true
-    word: true
   - trigger: "howd"
     replace: "how’d"
     propagate_case: true
