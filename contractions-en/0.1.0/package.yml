@@ -15,12 +15,40 @@ matches:
     replace: "amn’t"
     propagate_case: true
     word: true
+  - trigger: "'n"
+    replace: "’n’"
+    propagate_case: true
+    word: true
+  - trigger: "arencha"
+    replace: "aren’t you"
+    propagate_case: true
+    word: true
   - triggers: ["arent", "aren't"]
     replace: "aren’t"
     propagate_case: true
     word: true
+  - trigger: "'bout"
+    replace: "’bout"
+    propagate_case: true
+    word: true
   - triggers: ["cant", "can't"]
     replace: "can’t"
+    propagate_case: true
+    word: true
+  - trigger: "capn"
+    replace: "cap’n"
+    propagate_case: true
+    word: true
+  - triggers: "'cause"
+    replace: "’cause"
+    propagate_case: true
+    word: true
+  - triggers: ["cept", "'cept"]
+    replace: "’cept"
+    propagate_case: true
+    word: true
+  - triggers: ["cmon", "c'mon"]
+    replace: "c’mon"
     propagate_case: true
     word: true
   - triggers: ["couldve", "could've"]
@@ -29,6 +57,14 @@ matches:
     word: true
   - triggers: ["couldnt", "couldn't"]
     replace: "couldn’t"
+    propagate_case: true
+    word: true
+  - triggers: ["couldntve", "couldn't've"]
+    replace: "couldn’t’ve"
+    propagate_case: true
+    word: true
+  - trigger: "cuppa"
+    replace: "cup of"
     propagate_case: true
     word: true
   - triggers: ["darent", "daren't"]
@@ -55,8 +91,16 @@ matches:
     replace: "don’t"
     propagate_case: true
     word: true
+  - trigger: "dunno"
+    replace: "don't know"
+    propagate_case: true
+    word: true
   - trigger: "d'ye"
     replace: "d’ye"
+    propagate_case: true
+    word: true
+  - triggers: ["dya", "d'ya"]
+    replace: "d’ya"
     propagate_case: true
     word: true
   - triggers: ["een", "e'en"]
@@ -67,6 +111,10 @@ matches:
     replace: "e’er"
     propagate_case: true
     word: true
+  - trigger: "'em"
+    replace: "’em"
+    propagate_case: true
+    word: true
   - triggers: ["everybodys", "everybody's"]
     replace: "everybody’s"
     propagate_case: true
@@ -75,16 +123,48 @@ matches:
     replace: "everyone’s"
     propagate_case: true
     word: true
+  - triggers: ["everythings", "everything's"]
+    replace: "everything's"
+    propagate_case: true
+    word: true
+  - trigger: "finna"
+    replace: "fixing to"
+    propagate_case: true
+    word: true
+  - triggers: ["focsle", "fo'c'sle"]
+    replace: "fo’c’sle"
+    propagate_case: true
+    word: true
+  - triggers: ["gainst", "'gainst"]
+    replace: "’gainst"
+    propagate_case: true
+    word: true
   - triggers: ["gday", "g'day"]
     replace: "g’day"
+    propagate_case: true
+    word: true
+  - trigger: "gimme"
+    replace: "give me"
     propagate_case: true
     word: true
   - triggers: ["givn", "giv'n"]
     replace: "giv’n"
     propagate_case: true
     word: true
+  - triggers: ["giz", "gi'z"]
+    replace: "gi’z"
+    propagate_case: true
+    word: true
+  - trigger: "gonna"
+    replace: "going to"
+    propagate_case: true
+    word: true
   - triggers: ["gont", "gon't"]
     replace: "gon’t"
+    propagate_case: true
+    word: true
+  - trigger: "gotta"
+    replace: "got to"
     propagate_case: true
     word: true
   - triggers: ["hadnt", "hadn't"]
@@ -107,6 +187,18 @@ matches:
     replace: "he’d"
     propagate_case: true
     word: true
+  - triggers: ["hedntve", "he'd'nt've"]
+    replace: "he'd'nt've"
+    propagate_case: true
+    word: true
+  - trigger: "he'll"
+    replace: "he’ll"
+    propagate_case: true
+    word: true
+  - trigger: "helluva"
+    replace: "hell of a"
+    propagate_case: true
+    word: true
   - triggers: ["yesnt", "yesn't"]
     replace: "yesn’t"
     propagate_case: true
@@ -123,6 +215,10 @@ matches:
     replace: "how’d"
     propagate_case: true
     word: true
+  - trigger: "howdy"
+    replace: "how do you do"
+    propagate_case: true
+    word: true
   - triggers: ["howll", "how'll"]
     replace: "how’ll"
     propagate_case: true
@@ -135,8 +231,56 @@ matches:
     replace: "how’s"
     propagate_case: true
     word: true
+  - triggers: ["id", "i'd"]
+    replace: "I’d"
+    propagate_case: true
+    word: true
+  - triggers: ["idve", "i'd've"]
+    replace: "I’d’ve"
+    propagate_case: true
+    word: true
+  - triggers: ["idnt", "i'd'nt"]
+    replace: "I’d’nt"
+    propagate_case: true
+    word: true
+  - triggers: ["idntve", i'd'nt've]
+    replace: "I’d’nt’ve"
+    propagate_case: true
+    word: true
+  - triggers: ["ifn", "if'n"]
+    replace: "If’n"
+    propagate_case: true
+    word: true
+  - triggers: ["ill", "i'll"]
+    replace: "I’ll"
+    propagate_case: true
+    word: true
   - triggers: ["im", "i'm"]
     replace: "I’m"
+    propagate_case: true
+    word: true
+  - triggers: ["imonna", "i'm'onna"]
+    replace: "I’m’onna"
+    propagate_case: true
+    word: true
+  - triggers: ["imma", "i'mma"]
+    replace: "I’mma"
+    propagate_case: true
+    word: true
+  - triggers: ["imo", "i'm'o"]
+    replace: "I’m’o"
+    propagate_case: true
+    word: true
+  - triggers: ["imna", "i'm'na"]
+    replace: "I’m’na"
+    propagate_case: true
+    word: true
+  - trigger: "innit"
+    replace: "isn’t it"
+    propagate_case: true
+    word: true
+  - trigger: "ion"
+    replace: "I don't"
     propagate_case: true
     word: true
   - triggers: ["ive", "i've"]
@@ -155,6 +299,30 @@ matches:
     replace: "it’ll"
     propagate_case: true
     word: true
+  - trigger: "it's"
+    replace: "it’s"
+    propagate_case: true
+    word: true
+  - triggers: ["idunno", "idk"]
+    replace: "I don’t know"
+    propagate_case: true
+    word: true
+  - trigger: "kinda"
+    replace: "kind of"
+    propagate_case: true
+    word: true
+  - trigger: "lemme"
+    replace: "let me"
+    propagate_case: true
+    word: true
+  - trigger: "let's"
+    replace: "let’s"
+    propagate_case: true
+    word: true
+  - triggers: ["lovent", "loven't"]
+    replace: "loven’t"
+    propagate_case: true
+    word: true
   - triggers: ["maam", "ma'am"]
     replace: "ma’am"
     propagate_case: true
@@ -167,6 +335,10 @@ matches:
     replace: "may’ve"
     propagate_case: true
     word: true
+  - trigger: "methinks"
+    replace: "I think"
+    propagate_case: true
+    word: true
   - triggers: ["mightnt", "mightn't"]
     replace: "mightn’t"
     propagate_case: true
@@ -175,16 +347,32 @@ matches:
     replace: "might’ve"
     propagate_case: true
     word: true
+  - trigger: "mine's"
+    replace: "mine’s"
+    propagate_case: true
+    word: true
   - triggers: ["mustnt", "mustn't"]
     replace: "mustn’t"
+    propagate_case: true
+    word: true
+  - triggers: ["mustntve", "mustn't've"]
+    replace: "mustn’t’ve"
     propagate_case: true
     word: true
   - triggers: ["mustve", "must've"]
     replace: "must’ve"
     propagate_case: true
     word: true
+  - triggers: ["neath", "'neath"]
+    replace: "’neath"
+    propagate_case: true
+    word: true
   - triggers: ["neednt", "needn't"]
     replace: "needn’t"
+    propagate_case: true
+    word: true
+  - trigger: "nal"
+    replace: "and all"
     propagate_case: true
     word: true
   - triggers: ["neer", "ne'er"]
@@ -203,8 +391,52 @@ matches:
     replace: "ol’"
     propagate_case: true
     word: true
+  - triggers: ["oughtve", "ought've"]
+    replace: "ought’ve"
+    propagate_case: true
+    word: true
   - triggers: ["oughtnt", "oughtn't"]
     replace: "oughtn’t"
+    propagate_case: true
+    word: true
+  - triggers: ["oughtntve", "oughtn't've"]
+    replace: "oughtn’t’ve"
+    propagate_case: true
+    word: true
+  - trigger: "'round"
+    replace: "’round"
+    propagate_case: true
+    word: true
+  - trigger: "'s"
+    replace: "’s"
+    propagate_case: true
+    word: true
+  - triggers: ["shallnt", "shalln't"]
+    replace: "shalln’t"
+    propagate_case: true
+    word: true
+  - trigger: "shan'"
+    replace: "shan’"
+    propagate_case: true
+    word: true
+  - triggers: ["shant", "shan't"]
+    replace: "shan’t"
+    propagate_case: true
+    word: true
+  - triggers: ["shed", "she'd"]
+    replace: "she’d"
+    propagate_case: true
+    word: true
+  - trigger: "she'll"
+    replace: "she’ll"
+    propagate_case: true
+    word: true
+  - triggers: ["shes", "she's"]
+    replace: "she’s"
+    propagate_case: true
+    word: true
+  - triggers: ["shedntve", "she'd'nt've"]
+    replace: "she’d’nt’ve"
     propagate_case: true
     word: true
   - triggers: ["shouldve", "should've"]
@@ -213,6 +445,46 @@ matches:
     word: true
   - triggers: ["shouldnt", "shouldn't"]
     replace: "shouldn’t"
+    propagate_case: true
+    word: true
+  - triggers: ["shouldntve", "shouldn't've"]
+    replace: "shouldn’t’ve"
+    propagate_case: true
+    word: true
+  - triggers: ["somebodys", "somebody's"]
+    replace: "somebody’s"
+    propagate_case: true
+    word: true
+  - triggers: ["someones", "someone's"]
+    replace: "someone’s"
+    propagate_case: true
+    word: true
+  - triggers: ["somethings", "something's"]
+    replace: "something’s"
+    propagate_case: true
+    word: true
+  - trigger: "so're"
+    replace: "so’re"
+    propagate_case: true
+    word: true
+  - trigger: "so's"
+    replace: "so’s"
+    propagate_case: true
+    word: true
+  - triggers: ["sove", "so've"]
+    replace: "so’ve"
+    propagate_case: true
+    word: true
+  - triggers: ["thatll", "that'll"]
+    replace: "that’ll"
+    propagate_case: true
+    word: true
+  - triggers: ["thatre", "that're"]
+    replace: "that’re"
+    propagate_case: true
+    word: true
+  - triggers: ["thats", "that's"]
+    replace: "that’s"
     propagate_case: true
     word: true
   - triggers: ["thatd", "that'd"]
@@ -247,6 +519,10 @@ matches:
     replace: "they’d"
     propagate_case: true
     word: true
+  - triggers: ["theydve", "they'd've"]
+    replace: "they’d’ve"
+    propagate_case: true
+    word: true
   - triggers: ["theyll", "they'll"]
     replace: "they’ll"
     propagate_case: true
@@ -275,12 +551,20 @@ matches:
     replace: "’thout"
     propagate_case: true
     word: true
+  - triggers: ["til", "'til"]
+    replace: "’til"
+    propagate_case: true
+    word: true
   - triggers: ["tis", "'tis"]
     replace: "’tis"
     propagate_case: true
     word: true
   - triggers: ["tove", "to've"]
     replace: "to’ve"
+    propagate_case: true
+    word: true
+  - trigger: "tryna"
+    replace: "trying to"
     propagate_case: true
     word: true
   - triggers: ["twas", "'twas"]
@@ -295,6 +579,18 @@ matches:
     replace: "’twere"
     propagate_case: true
     word: true
+  - trigger: "w'all"
+    replace: "w’all"
+    propagate_case: true
+    word: true
+  - trigger: "w'at"
+    replace: "w’at"
+    propagate_case: true
+    word: true
+  - trigger: "wanna"
+    replace: "want to"
+    propagate_case: true
+    word: true
   - triggers: ["wasnt", "wasn't"]
     replace: "wasn’t"
     propagate_case: true
@@ -303,12 +599,28 @@ matches:
     replace: "we’d"
     propagate_case: true
     word: true
+  - triggers: ["wedve", "we'd've"]
+    replace: "we’d’ve"
+    propagate_case: true
+    word: true
+  - trigger: "we'll"
+    replace: "we’ll"
+    propagate_case: true
+    word: true
+  - trigger: "we're"
+    replace: "we’re"
+    propagate_case: true
+    word: true
   - triggers: ["weve", "we've"]
     replace: "we’ve"
     propagate_case: true
     word: true
   - triggers: ["werent", "weren't"]
     replace: "weren’t"
+    propagate_case: true
+    word: true
+  - trigger: "whatcha"
+    replace: "what are you"
     propagate_case: true
     word: true
   - triggers: ["whatd", "what'd"]
@@ -329,6 +641,10 @@ matches:
     word: true
   - triggers: ["whatve", "what've"]
     replace: "what’ve"
+    propagate_case: true
+    word: true
+  - triggers: ["whend", "when'd"]
+    replace: "when’d"
     propagate_case: true
     word: true
   - triggers: ["whens", "when's"]
@@ -379,6 +695,10 @@ matches:
     replace: "who’d"
     propagate_case: true
     word: true
+  - triggers: ["whodve", "who'd've"]
+    replace: "who’d’ve"
+    propagate_case: true
+    word: true
   - triggers: ["wholl", "who'll"]
     replace: "who’ll"
     propagate_case: true
@@ -399,6 +719,10 @@ matches:
     replace: "why’d"
     propagate_case: true
     word: true
+  - triggers: ["whydja", "why'dja"]
+    replace: "why’dja"
+    propagate_case: true
+    word: true
   - triggers: ["whyre", "why're"]
     replace: "why’re"
     propagate_case: true
@@ -415,6 +739,10 @@ matches:
     replace: "won’t"
     propagate_case: true
     word: true
+  - trigger: "wonnot"
+    replace: "will not"
+    propagate_case: true
+    word: true
   - triggers: ["wouldve", "would've"]
     replace: "would’ve"
     propagate_case: true
@@ -423,12 +751,52 @@ matches:
     replace: "wouldn’t"
     propagate_case: true
     word: true
+  - triggers: ["wouldntve", "wouldn't've"]
+    replace: "wouldn’t’ve"
+    propagate_case: true
+    word: true
+  - triggers: ["yaint", "y'ain't"]
+    replace: "y’ain’t"
+    propagate_case: true
+    word: true
   - triggers: ["yall", "y'all"]
     replace: "y’all"
     propagate_case: true
     word: true
+  - triggers: ["yalldve", "y'all'd've"]
+    replace: "y’all’d’ve"
+    propagate_case: true
+    word: true
+  - triggers: ["yalldntve", "y'all'dn't've"]
+    replace: "y’all’dn’t’ve"
+    propagate_case: true
+    word: true
+  - triggers: ["yallre", "y'all're"]
+    replace: "y’all’re"
+    propagate_case: true
+    word: true
+  - triggers: ["yallrent", "y'all'ren't"]
+    replace: "y’all’ren’t"
+    propagate_case: true
+    word: true
   - triggers: ["yat", "y'at"]
     replace: "y’at"
+    propagate_case: true
+    word: true
+  - triggers: ["yesm", "yes'm"]
+    replace: "yes’m"
+    propagate_case: true
+    word: true
+  - triggers: ["yever", "y'ever"]
+    replace: "y’ever"
+    propagate_case: true
+    word: true
+  - triggers: ["yknow", "y'know", "uknow", "u'know"]
+    replace: "y’know"
+    propagate_case: true
+    word: true
+  - trigger: "yessir"
+    replace: "yes sir"
     propagate_case: true
     word: true
   - triggers: ["youd", "you'd"]
